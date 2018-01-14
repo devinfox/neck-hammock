@@ -44,10 +44,7 @@ ol {
     float: right;
 }
 
-#pledge-selectable-sidebar {
-   border: 1px solid grey;
-   max-width: 70%;
-}
+
 
 .pledge_amount {
     font-size: 1.8rem;
@@ -69,17 +66,6 @@ ol {
     align-content: center;
 }
 
-@media screen and (max-width: 1250px) {
-    .card {
-        display: none !important;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .box.col.s8 {
-        display: none !important;
-    }
-}
 
 
 figure {
@@ -90,7 +76,7 @@ img {
     max-width: 100%;
     height: auto;
     width: auto; /* ie8 */
-  }
+}
 
 .col.s8 {
     max-width: 100%;
@@ -102,9 +88,6 @@ img {
     border: 5px solid #f7f7f7;
 }
 
-#picture {
-   border: 50px solid white;
-}
 
 .all-or-nothing {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -114,23 +97,43 @@ time {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+#pledge-selectable-sidebar {
+    border: 1px solid grey;
+    max-width: 70%;
+ }
+
+#picture {
+    border: 50px solid white;
+}
+
 #extra {
-   border: white 5px solid;
+    border: white 5px solid;
 }
 
 ol li { 
     list-style-type: none;
     display: inline-block;
-  }
+}
 
 .card {
     align-content: center;
     text-align: center;
     display: flex;
-  }
+}
 
-  #buy {
-      align-content: center;
-      display: block;
-      width: 100px;
-  }
+#buy {
+    align-content: center;
+    display: block;
+    width: 100px;
+}
+@media screen and (max-width: 1250px) {
+    .card {
+        display: none !important;
+    }
+}
+                    
+@media screen and (max-width: 1250px) {
+    .box.col.s8 {
+        display: none !important;
+    }
+}
