@@ -106,6 +106,12 @@ time {
     border: 50px solid white;
 }
 
+#buy {
+    align-content: center;
+    display: block;
+    width: 100px;
+}
+
 #extra {
     border: white 5px solid;
 }
@@ -121,11 +127,6 @@ ol li {
     display: flex;
 }
 
-#buy {
-    align-content: center;
-    display: block;
-    width: 100px;
-}
 @media screen and (max-width: 1250px) {
     .card {
         display: none !important;
