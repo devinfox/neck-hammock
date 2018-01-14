@@ -1,0 +1,136 @@
+.btn {
+    background-color: #2cd566 !important;
+}
+.col-md-8-24 {
+    vertical-align: top;
+    float: right;
+    bottom: 100px;
+    position: relative;
+    bottom: -20px;
+    left: 160px;
+}
+
+.campaign_buyers {
+    font-size: 1.6rem;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.m6 {
+    position: absolute;
+    width: 50%;
+    left: 75px;
+}
+
+.card {
+    float: right;
+    position: absolute;
+}
+
+video {
+    align-content: center;
+}
+
+.buy-now {
+    align-content: center;
+    padding-left: 30%;
+}
+
+
+ol {
+    float: right;
+}
+
+#pledge-selectable-sidebar {
+   border: 1px solid grey;
+   max-width: 70%;
+}
+
+.pledge_amount {
+    font-size: 1.8rem;
+}
+
+.pledge_title {
+    font-size: 1.6rem;
+}
+
+.header {
+    display: flex;
+}
+
+.circle {
+    display: flex;
+}
+
+.aspect-ratio {
+    align-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .card {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .box.col.s8 {
+        display: none !important;
+    }
+}
+
+
+figure {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+  }
+
+.col.s8 {
+    max-width: 100%;
+    border-top: 100px;
+}
+
+.what {
+    background-color: #f7f7f7;
+    border: 5px solid #f7f7f7;
+}
+
+#picture {
+   border: 50px solid white;
+}
+
+.all-or-nothing {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+time {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#extra {
+   border: white 5px solid;
+}
+
+ol li { 
+    list-style-type: none;
+    display: inline-block;
+  }
+
+.card {
+    align-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  #buy {
+      align-content: center;
+      display: block;
+      width: 100px;
+  }
