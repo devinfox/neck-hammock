@@ -83,7 +83,7 @@ img {
     border-top: 100px;
 }
 
-.what {
+.main-middle {
     background-color: #f7f7f7;
     border: 5px solid #f7f7f7;
 }
@@ -103,7 +103,10 @@ time {
  }
 
 #picture {
-    border: 50px solid white;
+    top: 50px;
+    padding: 30px;
+    border: 5px solid white;
+    align-content: center;
 }
 
 #buy {
@@ -135,6 +138,18 @@ ol li {
                     
 @media screen and (max-width: 1250px) {
     .box.col.s8 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .fit {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #picture {
         display: none !important;
     }
 }
